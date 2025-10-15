@@ -1,0 +1,16 @@
+name: creditCardFraud
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel
+  - pandas
+  - numpy
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - statsmodels
+  - pip
+  - pip:
+    - imblearn
