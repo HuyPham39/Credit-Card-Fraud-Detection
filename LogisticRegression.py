@@ -16,10 +16,6 @@ df = pd.read_csv("ETLdata.csv")
 X = df.drop(['Class'], axis=1)
 Y = df.Class
 
-# Split data into training/testing folds
-
-kfold = KFold(n_splits=10, 
-              shuffle=True, 
-              random_state=0)
+# Fit the model
 
 
